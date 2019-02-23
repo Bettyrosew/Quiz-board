@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Quiz-Board</title>
@@ -16,66 +18,64 @@
   </form>
 </div>
 
-<div id="quizpage" class="toggle slideshow">
-  <h2>SECTION 2-JAVASCRIPT QUIZ </h2>
-<div class="quiz-board">
-<form id="Quiz">
-  Question 1:Identify the JavaScript Data type among the following:<br>
-<input type="radio" name="q1"  value="choicea">Boolean<br></br>
-<input type="radio" name="q1" value="choiceb">Script<br></br>
-<input type="radio" name="q1" value="choicec">Jquery<br></br>
+  <h2><span class="hdr2"> SECTION II-JAVASCRIPT QUIZ </span></h2>
+  <div class="quiz-board">
+  <form id="Quiz">
+  <label><span class="qst"> Question 1:Identify the JavaScript Data type among the following:</span></label><br>
+    <input type="radio" name="q1"  value="choicea">Boolean<br></br>
+    <input type="radio" name="q1" value="choiceb">Script<br></br>
+    <input type="radio" name="q1" value="choicec">Jquery<br></br>
 
-Question 2:What is a prompt box?<br>
-<input type="radio" name="q2" value="choicea">Box which allows the user to enter input by providing a text box.<br></br>
-<input type="radio" name="q2" value="choiceb">Box that takes one to the object from where it was called.<br></br>
-<input type="radio" name="q3" value="choicec">A box that is specific to user specific data that can be accessed across all pages in the web application.<br></br>
+  <label><span class="qst">Question 2:What is a prompt box?</span></label><br>
+    <input type="radio" name="q2" value="choicea">Box which allows the user to enter input by providing a text box.<br></br>
+    <input type="radio" name="q2" value="choiceb">Box that takes one to the object from where it was called.<br></br>
+    <input type="radio" name="q3" value="choicec">A box that is specific to user specific data that can be accessed across all pages in the web application.<br></br>
 
-Question 3:Explain how can you submit a form using JavaScript?<br>
-<input type="radio" name="q3" value="choicea">submit.form();<br></br>
-<input type="radio" name="q3" value="choiceb">document.form[0].submit();<br></br>
-<input type="radio" name="q3" value="choicec">form.document.submit();<br></br>
+  <label><span class="qst"> Question 3:Explain how can you submit a form using JavaScript?</span></label><br>
+    <input type="radio" name="q3" value="choicea">submit.form();<br></br>
+    <input type="radio" name="q3" value="choiceb">document.form[0].submit();<br></br>
+    <input type="radio" name="q3" value="choicec">form.document.submit();<br></br>
 
-Question 4:Explain difference between"==" and "==="?<br>
-<input type="radio" name="q4" value="choicea">"==" confirms values are equal whereas "===" is a more stricter and more accurate on equality.<br></br>
-<input type="radio" name="q4" value="choiceb">"==" applies when the values are not exactly equal to eachother due to decimal places and fractions whereas "===" is a for values that are completly equal to eachother.<br></br>
-<input type="radio" name="q4" value="choicec">"==" checks only for equality in value whereas "===" is a stricter equality test and returns false if either the value or the type of the two variables are different.<br></br>
+  <label><span class="qst"> Question 4:Explain difference between"==" and "==="?</span></label><br>
+    <input type="radio" name="q4" value="choicea">"==" confirms values are equal whereas "===" is a more stricter and more accurate on equality.<br></br>
+    <input type="radio" name="q4" value="choiceb">"==" applies when the values are not exactly equal to eachother due to decimal places and fractions whereas "===" is a for values that are completly equal to eachother.<br></br>
+    <input type="radio" name="q4" value="choicec">"==" checks only for equality in value whereas "===" is a stricter equality test and returns false if either the value or the type of the two variables are different.<br></br>
 
-Question 5:What would be the result of 3+2+"7"?<br>
-<input type="radio" name="q5"  value="choicea">57<br></br>
-<input type="radio" name="q5" value="choiceb">327<br></br>
-<input type="radio" name="q5" value="choicec">12<br></br>
+  <label><span class="qst"> Question 5:What would be the result of 3+2+"7"?</span></label><br>
+    <input type="radio" name="q5"  value="choicea">57<br></br>
+    <input type="radio" name="q5" value="choiceb">327<br></br>
+    <input type="radio" name="q5" value="choicec">12<br></br>
 
-Question 6:What does NULL mean in Javascript?<br>
-<input type="radio" name="q6"  value="choicea">Represents value that cannot undergo arithmetic operations.<br></br>
-<input type="radio" name="q6" value="choiceb">Represents infinity.<br></br>
-<input type="radio" name="q6" value="choicec">Represents no value or no object<br></br>
+  <label><span class="qst">Question 6:What does NULL mean in Javascript?</span></label><br>
+    <input type="radio" name="q6"  value="choicea">Represents value that cannot undergo arithmetic operations.<br></br>
+    <input type="radio" name="q6" value="choiceb">Represents infinity.<br></br>
+    <input type="radio" name="q6" value="choicec">Represents no value or no object<br></br>
 
-Question 7:What is the function of delete operator?<br>
-<input type="radio" name="q7"  value="choicea">It used to delete property as well as its value.<br></br>
-<input type="radio" name="q7" value="choiceb">It is used to delete characters in a terminal.<br></br>
-<input type="radio" name="q7" value="choicec">It is used to delete generally.<br></br>
+  <label><span class="qst">Question 7:What is the function of delete operator?</span></label><br>
+    <input type="radio" name="q7"  value="choicea">It used to delete property as well as its value.<br></br>
+    <input type="radio" name="q7" value="choiceb">It is used to delete characters in a terminal.<br></br>
+    <input type="radio" name="q7" value="choicec">It is used to delete generally.<br></br>
 
-Question 8:Which is a jQuery method in the following?<br>
-<input type="radio" name="q8"  value="choicea">fadeIn()<br></br>
-<input type="radio" name="q8" value="choiceb">fadeInside()<br></br>
-<input type="radio" name="q8" value="choicec">fadeSlide()<br></br>
+  <label><span class="qst">Question 8:Which is a jQuery method in the following?</span></label><br>
+    <input type="radio" name="q8"  value="choicea">fadeIn()<br></br>
+    <input type="radio" name="q8" value="choiceb">fadeInside()<br></br>
+    <input type="radio" name="q8" value="choicec">fadeSlide()<br></br>
 
-Question 9:What boolean operator(s) can be used in JavaScript?<br>
-<input type="radio" name="q9"  value="choicea">&& only.<br></br>
-<input type="radio" name="q9" value="choiceb">&& and ||<br></br>
-<input type="radio" name="q9" value="choicec">|| only.<br></br>
+  <label><span class="qst">Question 9:What boolean operator(s) can be used in JavaScript?</span></label><br>
+    <input type="radio" name="q9"  value="choicea">&& only.<br></br>
+    <input type="radio" name="q9" value="choiceb">&& and ||<br></br>
+    <input type="radio" name="q9" value="choicec">|| only.<br></br>
 
-Question 10:Explain a for loop.<br>
-<input type="radio" name="q10"  value="choicea">It used to loop through in arithmetics.<br></br>
-<input type="radio" name="q10" value="choiceb">It is used to repeat certain functions to achieve the correct output.<br></br>
-<input type="radio" name="q10" value="choicec">It is used to loop through properties of an object.<br></br>
-<input type="button" id="submit" value="Submit"/><br></br>
-<p>Well done for attempting the quiz!Your results have been shown below.</p>
-Results (in percentage):<div id="output"></div>
-<button type="reset" value="Retake">Retake Quiz</button>
-</form>
-
-
+  <label><span class="qst">Question 10:Explain a for loop.<span></label><br>
+    <input type="radio" name="q10"  value="choicea">It used to loop through in arithmetics.<br></br>
+    <input type="radio" name="q10" value="choiceb">It is used to repeat certain functions to achieve the correct output.<br></br>
+    <input type="radio" name="q10" value="choicec">It is used to loop through properties of an object.<br></br>
+      <input type="button" id="submit" value="Submit"/><br></br>
+      <p>Well done for attempting the quiz!Your results have been shown below.</p>
+      Results (in percentage):<div id="output"></div>
+      <button type="reset" value="Retake">Retake Quiz</button>
+    </form>
+  </div>
 </div>
-</div>
+</body>
 </html>
