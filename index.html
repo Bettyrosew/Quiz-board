@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Quiz-Board</title>
 </head>
 <body>
-  <h1><span class="heading">JAVASCRIPT QUIZ</span></h1>
-  <h2><span class="heading1"></span></h2>
-<form name="Quiz">
-  <div class ="quizboard">
-Question 1:Identify the JavaScript Data type among the following:<br>
+<div id="loginpage">
+  <h1>SECTION I - LOGIN</h1>
+  <form class="login-form" action="index.html" method="post">
+    <label for="user-name">User Name:</label></br><input type="text" id="username" value="" placeholder="user name"/>
+    <label for="class">Class:</label></br><input type="text"id="class" value="" placeholder="class"/>
+    <label for="admission-number">Admission Number:</label></br><input type="number" id="admno" value="" placeholder="admission-number"/>
+    <label for="checkbox">Start!</label><input id="Start" type="checkbox" name="" value="">
+  </form>
+</div>
+
+<div id="quizpage" class="toggle slideshow">
+  <h2>SECTION 2-JAVASCRIPT QUIZ </h2>
+<div class="Quiz-board">
+<form id="Quiz">
+  Question 1:Identify the JavaScript Data type among the following:<br>
 <input type="radio" name="q1"  value="choicea">Boolean<br></br>
 <input type="radio" name="q1" value="choiceb">Script<br></br>
 <input type="radio" name="q1" value="choicec">Jquery<br></br>
@@ -24,9 +36,9 @@ Question 3:Explain how can you submit a form using JavaScript?<br>
 <input type="radio" name="q3" value="choicec">form.document.submit();<br></br>
 
 Question 4:Explain difference between"==" and "==="?<br>
-<input type="radio" name="q3" value="choicea">"==" confirms values are equal whereas "===" is a more stricter and more accurate on equality.<br></br>
-<input type="radio" name="q3" value="choiceb">"==" applies when the values are not exactly equal to eachother due to decimal places and fractions whereas "===" is a for values that are completly equal to eachother.<br></br>
-<input type="radio" name="q3" value="choicec">"==" checks only for equality in value whereas "===" is a stricter equality test and returns false if either the value or the type of the two variables are different.<br></br>
+<input type="radio" name="q4" value="choicea">"==" confirms values are equal whereas "===" is a more stricter and more accurate on equality.<br></br>
+<input type="radio" name="q4" value="choiceb">"==" applies when the values are not exactly equal to eachother due to decimal places and fractions whereas "===" is a for values that are completly equal to eachother.<br></br>
+<input type="radio" name="q4" value="choicec">"==" checks only for equality in value whereas "===" is a stricter equality test and returns false if either the value or the type of the two variables are different.<br></br>
 
 Question 5:What would be the result of 3+2+"7"?<br>
 <input type="radio" name="q5"  value="choicea">57<br></br>
@@ -58,4 +70,9 @@ Question 10:Explain a for loop.<br>
 <input type="radio" name="q10" value="choiceb">It is used to repeat certain functions to achieve the correct output.<br></br>
 <input type="radio" name="q10" value="choicec">It is used to loop through properties of an object.<br></br>
 
-<input type="button" value="Submit" onClick="answer()">
+<button type="submit" name="submit" id="submit" onClick="submit">Submit</button>
+</form>
+</div>
+</div>
+<div id="output"></div>
+</html>
