@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-  $("button#submit").click(function(){
+  $("input#submit").click(function(event){
+    event.preventDefault();
   var answer1=$("input:radio[name=q1]:checked").val();
   var answer2=$("input:radio[name=q2]:checked").val();
   var answer3=$("input:radio[name=q3]:checked").val();
@@ -12,7 +13,6 @@ $(document).ready(function(){
   var answer9=$("input:radio[name=q9]:checked").val();
   var answer10=$("input:radio[name=q10]:checked").val();
   var marks=0
-
   if (answer1=="choicea") {
           marks+=3;
   }
@@ -43,6 +43,10 @@ $(document).ready(function(){
   if (answer10=="choicec") {
           marks+=3;
   }
-  alert('you have'+marks)
-  });
+  var total=100
+  var max=30
+  var percentage=(marks/max)*total
+
+  $("#output").text(percentage);
+});
 });
