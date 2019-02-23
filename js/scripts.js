@@ -1,15 +1,18 @@
-function answer() {
-  var answer1=document.Quiz.q1.value;
-  var answer2=document.Quiz.q2.value;
-  var answer3=document.Quiz.q3.value;
-  var answer4=document.Quiz.q4.value;
-  var answer5=document.Quiz.q5.value;
-  var answer6=document.Quiz.q6.value;
-  var answer7=document.Quiz.q7.value;
-  var answer8=document.Quiz.q8.value;
-  var answer9=document.Quiz.q9.value;
-  var answer10=document.Quiz.q10.value;
+
+$(document).ready(function(){
+  $("button#submit").click(function(){
+  var answer1=$("input:radio[name=q1]:checked").val();
+  var answer2=$("input:radio[name=q2]:checked").val();
+  var answer3=$("input:radio[name=q3]:checked").val();
+  var answer4=$("input:radio[name=q4]:checked").val();
+  var answer5=$("input:radio[name=q5]:checked").val();
+  var answer6=$("input:radio[name=q6]:checked").val();
+  var answer7=$("input:radio[name=q7]:checked").val();
+  var answer8=$("input:radio[name=q8]:checked").val();
+  var answer9=$("input:radio[name=q9]:checked").val();
+  var answer10=$("input:radio[name=q10]:checked").val();
   var marks=0
+
   if (answer1=="choicea") {
           marks+=3;
   }
@@ -40,5 +43,6 @@ function answer() {
   if (answer10=="choicec") {
           marks+=3;
   }
-  alert ('you got' + count + 'marks')
-}
+  alert('you have'+marks)
+  });
+});
