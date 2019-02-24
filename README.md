@@ -18,8 +18,6 @@ If you encounter any problems during operation with the tracker, you can contact
 | greater than or equal to 80% |  <=80% | Congratulations!You have passed excellently test |
 | between 50% and80% |  >50% but<80% |  Good job!You have fairly passed the test |
 | less than 50% | <50%  | Poorly done!Kindly retake the test to pull up your grades  |
-
-
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+GPL License.
+Copyright (c) 2019 Bettyrose Mburu.
