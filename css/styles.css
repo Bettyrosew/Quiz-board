@@ -1,10 +1,30 @@
 .qst {
   font-style: oblique;
   font-size: 20px;
+  font-weight: bold;
 }
 .hdr2 {
   font-size: 30px;
   color:blue;
   font-style: oblique;
+  font-weight:bold;
 }
-.
+.button {
+  background-color:#008CBA; /* Blue */
+  color: grey;
+  padding: 14px 40px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.results-sheet {
+  border-left: 2px solid white;
+  border-right: 4px solid white;
+  border-top: 6px solid white;
+  border-bottom: 8px solid white;
+  background-color: grey;
+  font-size: 25px;
+  color: white;
+  text-align:center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
