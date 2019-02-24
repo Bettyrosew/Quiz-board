@@ -4,7 +4,8 @@
 #### By **{List of contributors}**
 ## Description
 It is all about a high school which has started an after-school computer club  which is finishing a course on Javascript and the students will have to take a test before completing. The school is therefore using the multiple choice online quiz-board to test the students after which their results are displayed immediately on the website.
-
+##Author(s) information.
+The author of the website is called Bettyrose Waithera Mburu. She is still a junior web developer who is carrying out minor projects or rather practice projects including the quiz board.Hope you enjoy!
 ## Setup/Installation Requirements
 No setup requirements , one only needs to copy the link and open it on a new webpage.
 ## Technologies Used
