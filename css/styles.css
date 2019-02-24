@@ -28,3 +28,24 @@
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
+body {
+  background-color: blue;
+}
+.Quiz {
+  background:white;
+  width: 80%;
+  padding: 40px;
+  margin: 100px auto;
+}
+.hdr1 {
+  font-size: 60px;
+  color:white;
+  background:blue;
+  font-style: oblique;
+  font-weight:bold;
+  width: 100%;
+  padding: 60px;
+  margin: 100px auto;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
