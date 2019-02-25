@@ -1,11 +1,10 @@
 $(document).ready(function() {
-$("input#login").submit(function(event) {
-  event.preventDefault();
-  $("#login").hide();
-  $("#submit").show();
+$('button#submit').click(function() {
+  $(".quiz").hide();
+  $(".Quiz").show();
 })
-})
-$(document).ready(function(){
+
+
   $("input#submit").click(function(event){
     event.preventDefault();
   var answer1=$("input:radio[name=q1]:checked").val();
@@ -66,4 +65,5 @@ $(document).ready(function(){
         }
       }
 });
-});
+
+})
