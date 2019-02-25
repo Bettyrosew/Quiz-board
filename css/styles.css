@@ -36,10 +36,11 @@ body {
   width: 80%;
   padding: 40px;
   margin: 100px auto;
+  display: none;
 }
 .hdr1 {
   font-size: 60px;
-  color:black;
+  color:blue;
   font-style: oblique;
   font-weight:bold;
   width: 100%;
@@ -47,4 +48,8 @@ body {
   margin: 100px auto;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+}
+.inst {
+  font-style: italic;
+  font-weight: bold;
 }
