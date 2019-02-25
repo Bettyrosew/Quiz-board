@@ -3,22 +3,27 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
   <title>Quiz-Board</title>
 </head>
 <body>
   <h1><span class="hdr1">JAVASCRIPT QUIZ</span></h1>
   <div class="Quiz">
   <h2><span class="hdr2">SECTION I - LOGIN</span></h2>
-  <form class="login-form" action="index.html" method="post">
+  <form class="login-form" id="login">
     <label for="user-name">Username:</label><br></br><input type="text" id="username" value="" placeholder="user name"/><br></br>
     <label for="class">Class:</label><br></br><input type="text"id="class" value="" placeholder="class"/><br></br>
     <label for="admission-number">Admission Number:</label><br></br><input type="number" id="admno" value="" placeholder="admission-number"/><br></br>
-  </form>
+    <input type="button" id="login" value="Submit"/><br></br>
+    </form>
 </div>
 <div class="Quiz">
   <h3><span class="hdr2"> SECTION II-QUIZ </span></h3>
+  <p>INSTRUCTIONS.</p>
+  <ul>
+    <li>Ensure you you answer all the questions provided.</li>
+    <li>Ensure you click submit button once you aare done to get your results.</li>
+    <li>You can only select one choice among the three provided in every question.</li>
+  </ul>
   <div class="quiz-board">
   <form id="Quiz">
   <label><span class="qst"> Question 1:Identify the JavaScript Data type among the following:</span></label><br>
@@ -78,6 +83,8 @@
       <button type="reset" id="btn" value="Retake">Retake Quiz</button></span>
     </div>
     </form>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
 </div>
 </body>
 </html>

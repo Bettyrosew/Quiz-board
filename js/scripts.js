@@ -1,4 +1,10 @@
-
+$(document).ready(function() {
+$("input#login").submit(function(event) {
+  event.preventDefault();
+  $("#login").hide();
+  $("#submit").show();
+})
+})
 $(document).ready(function(){
   $("input#submit").click(function(event){
     event.preventDefault();
