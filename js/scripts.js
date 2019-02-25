@@ -47,17 +47,17 @@ $(document).ready(function(){
   var max=30
   var percentage=(marks/max)*total
 
-  $("#output").text(percentage);
+  $("#output").text(percentage); {
 
-  if (percentage>=80) {
-    alert("Congratulations!"+"You have passed excellently test!")
-  }
-  else if (percentage<=70&&percentage>=50){
-    alert("Good job!"+"You have fairly passed the test!")
-  }
-  else {
-    alert("Poorly done!"+"Kindly retake the test to pull up your grades")
-  }
-
+        if (percentage>=80) {
+          alert("Congratulations!"+"You have passed excellently test!")
+        }
+        else if (percentage<=70&&percentage>=50){
+          alert("Good job!"+"You have fairly passed the test!")
+        }
+        else {
+          alert("Poorly done!"+"Kindly retake the test to pull up your grades")
+        }
+      }
 });
 });

@@ -1,7 +1,7 @@
 # JavaScript Quiz Board.
 #### Tt is a multiple choice online quizboard on Javascript which displays the results immediately after the student submits the test.
 24-01-2019.
-#### By **{List of contributors}**
+#### By Bettyrose Mburu.
 ## Description
 It is all about a high school which has started an after-school computer club  which is finishing a course on Javascript and the students will have to take a test before completing. The school is therefore using the multiple choice online quiz-board to test the students after which their results are displayed immediately on the website.
 ##Author(s) information.
