@@ -3,8 +3,7 @@ $(document).ready(function() {
     $(".quiz").hide();
     $(".Quiz").show();
   })
-
-
+  // Business logic.
   $("input#submit").click(function(event){
     event.preventDefault();
     var answer1=$("input:radio[name=q1]:checked").val();
@@ -48,6 +47,7 @@ $(document).ready(function() {
     if (answer10=="choicec") {
       marks+=3;
     }
+    //User interface logic
     var total=100
     var max=30
     var percentage=(marks/max)*total
@@ -63,5 +63,6 @@ $(document).ready(function() {
     else {
       $("#output").text(percentage+"%"+"Poorly done!"+"Kindly retake the test to pull up your grades")
     }
+
   });
 });
