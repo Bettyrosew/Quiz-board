@@ -4,8 +4,8 @@
   font-weight: bold;
 }
 .hdr2 {
-  font-size: 30px;
-  color:blue;
+  font-size: 40px;
+  color:#AED6F1;
   font-style: oblique;
   font-weight:bold;
 }
@@ -40,9 +40,8 @@ body {
 }
 .hdr1 {
   font-size: 60px;
-  color:blue;
+  color:black;
   font-style: oblique;
-  font-weight:bold;
   width: 100%;
   padding: 60px;
   margin: 100px auto;
@@ -52,4 +51,10 @@ body {
 .inst {
   font-style: italic;
   font-weight: bold;
+}
+.quiz {
+  background:white;
+  width: 80%;
+  padding: 40px;
+  margin: 100px auto;
 }
